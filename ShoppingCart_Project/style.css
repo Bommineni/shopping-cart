@@ -1,0 +1,132 @@
+body{
+	.font-family: cambria;
+	font-size:16px;
+}
+
+.navbar-custom,.footer-bottom{
+	background-color: #2ECC71;
+}
+
+.navbar-header img{
+	width:120px;
+	height:80px;
+}
+.navbar-form{
+	margin-top: 20px;
+}
+.videopart{
+	padding:0;
+
+
+}
+.embed-responsive-16by9{
+	height:500px; !important
+}
+.navbar-nav>li>a{
+	color:#fff;
+	padding:3px;
+	width:85px;
+	height:30px;
+	text-align: center;
+	margin-top: 23px;
+	border-radius: 7px;
+}
+
+.navbar-nav>li>a:hover{
+	background-color: #EAFAF1;
+	color:#5499C7;
+}
+
+/*Container part*/
+
+
+.bs-example li{
+	display:inline;
+}
+.bs-example .img-circle{
+	width:180px;
+	height:120px;
+	margin:35px;
+	border: 1px solid #D6DBDF;
+}
+
+.row .col-sm-2{
+	margin:8px;
+	border:1px solid #D6DBDF;
+	padding: 0;
+}
+
+.col-sm-2 .img-fluid{
+	width:100%;
+	height:170px;
+	margin-bottom: 10px;
+}
+
+.col-sm-2 p{
+	text-align:center;
+	line-height: 0.6;
+}
+
+/*cart button*/
+
+.col-sm-2 button{
+	background-color:#58D68D;
+	color:#fff;
+	border:1px solid #D6DBDF;
+}
+.col-sm-2 .glyphicon-shopping-cart{
+	margin-right:5px;
+}
+
+.col-sm-2 button:hover{
+	background-color: #EAFAF1;
+	color:black;
+}
+
+/*Footer part*/
+
+.footer-bottom{
+	margin-top:20px;
+}
+
+.footer-bottom .container .row{
+	text-align: center;
+}
+
+.text-xs-center{
+	color:#fff;
+	margin-top: 15px;
+}
+.fa {
+  font-size: 25px;
+  width: 50px;
+  height:40px;
+  text-align: center;
+  text-decoration: none;
+   border-radius: 50%;
+   padding: 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
